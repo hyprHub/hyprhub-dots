@@ -97,13 +97,13 @@ Install these packages before using HyprHUB.
 Clone the repository.
 
 ```bash
-git clone https://github.com/<username>/HyprHUB.git
+git clone https://github.com/hyprHub/hyprhub-dots.git
 ```
 
 Go into the project.
 
 ```bash
-cd HyprHUB
+cd hyprhub-dots
 ```
 
 Run the installer.
