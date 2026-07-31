@@ -9,14 +9,13 @@ Modern • Minimal • Fast • Beautiful
 </p>
 
 
-
-# HyprHUB
-
-<p align="center">
-A clean, modern and highly customizable Hyprland configuration for Arch Linux.
-</p>
-
+![License](https://img.shields.io/github/license/hyprHub/hyprhub-dots)
+![Stars](https://img.shields.io/github/stars/hyprHub/hyprhub-dots)
+![Forks](https://img.shields.io/github/forks/hyprHub/hyprhub-dots)
+![Issues](https://img.shields.io/github/issues/hyprHub/hyprhub-dots)
+![Last Commit](https://img.shields.io/github/last-commit/hyprHub/hyprhub-dots)
 ---
+
 
 ## ✨ Features
 
