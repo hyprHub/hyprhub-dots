@@ -51,7 +51,7 @@ A clean, modern and highly customizable Hyprland configuration for Arch Linux.
 ```
 .
 ├── anyrun/        # Launcher configuration
-├── bin/           # Utility scripts
+├── .local/bin/    # Utility scripts
 ├── cava/          # Audio visualizer
 ├── gtk-3.0/       # GTK3 settings
 ├── gtk-4.0/       # GTK4 settings
@@ -97,13 +97,13 @@ Install these packages before using HyprHUB.
 Clone the repository.
 
 ```bash
-git clone https://github.com/<username>/HyprHUB.git
+git clone https://github.com/hyprHub/hyprhub-dots.git
 ```
 
 Go into the project.
 
 ```bash
-cd HyprHUB
+cd hyprhub-dots
 ```
 
 Run the installer.
