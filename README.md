@@ -51,7 +51,7 @@ A clean, modern and highly customizable Hyprland configuration for Arch Linux.
 ```
 .
 ├── anyrun/        # Launcher configuration
-├── bin/           # Utility scripts
+├── .local/bin/    # Utility scripts
 ├── cava/          # Audio visualizer
 ├── gtk-3.0/       # GTK3 settings
 ├── gtk-4.0/       # GTK4 settings
