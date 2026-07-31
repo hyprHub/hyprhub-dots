@@ -10,25 +10,25 @@
 }
 
 window {
-  background-color: rgba(0,0,0,0.15);
+  background-color: rgba(3, 3, 3, 0.15);
 }
 
 button {
   color: #f8f8f2;
-  background-color: #282a36;
+  background-color: #22273e;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 25%;
+  background-size: 30%;
   background-clip: padding-box;
   border-radius: 30px;
-  margin-top: 125px;
-  margin-bottom: 125px;
+  margin-top: 100px;
+  margin-bottom: 100px;
   margin-left: 4px;
   margin-right: 4px;
   min-width: 200px;
   border-width: 16px;
   border-color: #21222c;
-  font-size: large;
+  font-size: medium;
 }
 
 button:focus, button:active, button:hover {
@@ -37,22 +37,22 @@ button:focus, button:active, button:hover {
   
 }
 
-/* lock { */
+#lock {
   background-image: image(url("/usr/share/wlogout/icons/lock.png"), url("/usr/local/share/wlogout/icons/lock.png"));
 }
 
-/* shutdown { */
+#shutdown {
   background-image: image(url("/usr/share/wlogout/icons/shutdown.png"), url("/usr/local/share/wlogout/icons/shutdown.png"));
 }
 
-/* reboot { */
+#reboot {
   background-image: image(url("/usr/share/wlogout/icons/reboot.png"), url("/usr/local/share/wlogout/icons/reboot.png"));
 }
 
-/* suspend { */
+#suspend {
   background-image: image(url("/usr/share/wlogout/icons/suspend.png"), url("/usr/local/share/wlogout/icons/suspend.png"));
 }
 
-/* logout { */
+#logout {
   background-image: image(url("/usr/share/wlogout/icons/logout.png"), url("/usr/local/share/wlogout/icons/logout.png"));
 }

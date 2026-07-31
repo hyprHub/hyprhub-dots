@@ -1,9 +1,3 @@
-/* ==================================
- Project: hyprhub
- Author: grid
- Description: Hyprland configuration
-================================== */
-
 {
   "layer": "top",
   "position": "top",
@@ -118,7 +112,7 @@
   },
 
 "custom/cava": {
-    "exec": "sh -c '$HOME/.config/waybar/scripts/cava.sh'",
+    "exec": "/home/grid/.config/waybar/scripts/cava.sh",
     "format": "{text}",
     "return-type": "json"
 }
@@ -126,7 +120,7 @@
 ,
 
 "custom/cpu-temp": {
-    "exec": "sh -c '$HOME/.local/bin/cpu-temp'",
+    "exec": "/home/grid/.local/bin/cpu-temp",
     "interval": 5,
     "format": " {}°C"
 }

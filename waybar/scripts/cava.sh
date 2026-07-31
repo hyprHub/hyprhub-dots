@@ -1,10 +1,4 @@
-# ==================================
-# Project: hyprhub
-# Author: grid
-# Description: Hyprland configuration
-# ==================================
-
-# !/bin/bash
+#!/bin/bash
 
 trap 'exit 0' SIGPIPE SIGTERM SIGINT
 

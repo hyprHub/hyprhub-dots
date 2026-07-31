@@ -1,12 +1,12 @@
-// version 330
+#version 330
 
 // this shader was stolen from shadertoy user ChunderFPV
 
-// define SCALE 8.0
-// define PI radians(180.0)
-// define TAU (PI * 2.0)
-// define CS(a) vec2(cos(a), sin(a))
-// define PT(u, r) smoothstep(0.0, r, r - length(u))
+#define SCALE 8.0
+#define PI radians(180.0)
+#define TAU (PI * 2.0)
+#define CS(a) vec2(cos(a), sin(a))
+#define PT(u, r) smoothstep(0.0, r, r - length(u))
 
 in vec2 fragCoord;
 out vec4 fragColor;

@@ -1,9 +1,3 @@
-/* ==================================
- Project: hyprhub
- Author: grid
- Description: Hyprland configuration
-================================== */
-
 Config(
   // Position/size fields use an enum for the value, it can be either:
   // Absolute(n): The absolute value in pixels
@@ -22,13 +16,13 @@ Config(
   // NOTE: If this is set to 0, the window will never shrink after being expanded
   height: Absolute(1),
  
-  // Hide match and plugin info icons
+  // Hide match and plugin info icons  
   hide_icons: false, 
 
-  // ignore exclusive zones, f.e. Waybar
+  // ignore exclusive zones, f.e. Waybar  
   ignore_exclusive_zones: false, 
 
-  // Layer shell layer: Background, Bottom, Top, Overlay
+  // Layer shell layer: Background, Bottom, Top, Overlay  
   layer: Overlay, 
   
   // Hide the plugin info panel
@@ -45,7 +39,7 @@ Config(
   
   // List of plugins to be loaded by default, can be specified with a relative path to be loaded from the
   // `<anyrun config dir>/plugins` directory or with an absolute path to just load the file the path points to.
-  // 
+  //
   // The order of plugins here specifies the order in which they appear
   // in the results. As in it works as a priority for the plugins.
   plugins: [

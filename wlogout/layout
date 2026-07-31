@@ -1,18 +1,20 @@
+
 {
-    "label": "shutdown",
-    "action": "systemctl poweroff",
-    "text": "Power Off",
-    "keybind": "1"
+  "label" : "shutdown",
+  "action" : "systemctl poweroff",
+  "text" : "Shutdown",
+  "keybind" : "1" 
 },
 {
-    "label": "reboot",
-    "action": "systemctl reboot",
-    "text": "Reboot",
-    "keybind": "2"
+  "label" : "reboot",
+  "action" : "systemctl reboot",
+  "text" : "Reboot",
+  "keybind" : "2" 
 },
+
 {
-    "label": "logout",
-    "action": "hyprctl dispatch exit",
-    "text": "Logout",
-    "keybind": "3"
+  "label" : "logout",
+  "action" : "hyprctl dispatch exit",
+  "text" : "Logout",
+  "keybind" : "3" 
 }

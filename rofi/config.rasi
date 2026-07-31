@@ -1,9 +1,3 @@
-/* ==================================
- Project: hyprhub
- Author: grid
- Description: Hyprland configuration
-================================== */
-
 configuration {
     modi: "window,drun,run,ssh";
     

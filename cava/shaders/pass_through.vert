@@ -1,4 +1,4 @@
-// version 330
+#version 330
 
 
 // Input vertex data, different for all executions of this shader.
