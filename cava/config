@@ -1,0 +1,19 @@
+[general]
+bars = 12
+framerate = 60
+
+[input]
+method = pipewire
+source = auto
+
+[output]
+data_format = ascii
+
+[smoothing]
+noise_reduction = 77
+integral = 77
+gravity = 100
+ignore = 0
+
+[sensitivity]
+autosensitivity = 1

@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+SENSOR=$(grep -l "coretemp" /sys/class/hwmon/hwmon*/name | sed 's/name/temp1_input/')
+
+if [ -f "$SENSOR" ]; then
+    TEMP=$(cat "$SENSOR")
+    echo $((TEMP / 1000))
+else
+    echo "N/A"
+fi

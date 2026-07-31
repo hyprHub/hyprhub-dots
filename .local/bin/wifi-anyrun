@@ -1,0 +1,11 @@
+#!/bin/bash
+
+choice=$(
+    nmcli -t -f SSID,SIGNAL dev wifi list |
+    awk -F: '!seen[$1]++ { printf "%-30s %s%%\n", $1, $2 }' |
+    anyrun --plugins libstdin.so --show-results-immediately true
+)
+
+ssid=$(echo "$choice" | awk '{print $1}')
+
+[ -n "$ssid" ] && nmcli dev wifi connect "$ssid"

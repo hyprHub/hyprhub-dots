@@ -1,0 +1,16 @@
+/* ==================================
+ Project: hyprhub
+ Author: grid
+ Description: Hyprland configuration
+================================== */
+
+configuration {
+    modi: "window,drun,run,ssh";
+    
+    /* Pozitsiyani belgilash */
+    location: 2;     /* 2 - ekranning yuqori o'rtasi (Top Center) */
+    yoffset: 50;     /* Tepadan 50 piksel pastga surish */
+    xoffset: 0;      /* Yon tomonga surish shart emas */
+}
+
+@theme "~/.config/rofi/squared-nord.rasi"

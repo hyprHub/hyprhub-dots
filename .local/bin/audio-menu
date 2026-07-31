@@ -1,0 +1,15 @@
+#!/bin/bash
+
+choice=$(printf "pavucontrol\nhelvum\nalsamixer" | anyrun --plugins libstdin.so --show-results-immediately true)
+
+case "$choice" in
+    pavucontrol)
+        pavucontrol
+        ;;
+    helvum)
+        helvum
+        ;;
+    alsamixer)
+        kitty -e alsamixer
+        ;;
+esac

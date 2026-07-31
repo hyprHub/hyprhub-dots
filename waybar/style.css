@@ -1,0 +1,95 @@
+/* ==================================
+ Project: hyprhub
+ Author: grid
+ Description: Hyprland configuration
+================================== */
+
+* {
+    font-family: "JetBrainsMono Nerd Font";
+    font-size: 13px;
+    color: rgb(205, 214, 244);
+}
+
+
+window#waybar {
+    background: rgba(20, 20, 30, 0.471);
+    margin: 8px;
+}
+
+/* workspaces button { */
+    padding: 0 8px;
+    margin: 3px;
+    color: #6c7086;
+    border-radius: 10px;
+}
+
+/* workspaces button.active { */
+    background: #89b4fa;
+    color: #11111b;
+}
+
+/* clock, */
+/* network, */
+/* pulseaudio, */
+/* cpu, */
+/* memory, */
+/* battery, */
+/* tray, */
+/* custom-notification, */
+/* custom-power, */
+/* custom-cpu-temp, */
+/* window { */
+    background: rgba(49, 50, 68, 0.8);
+    padding: 5px 12px;
+    margin: 4px 2px;
+    border-radius: 12px;
+}
+
+/* custom-power { */
+    color: #f38ba8;
+}
+
+/* custom-power:hover { */
+    background: #f38ba8;
+    color: #11111b;
+}
+
+/* battery { */
+    color: #a6e3a1;
+}
+
+/* battery.charging { */
+    color: #f9e2af;
+}
+
+/* battery.full { */
+    color: #89b4fa;
+}
+
+/* battery.warning { */
+    color: #fab387;
+}
+
+/* battery.critical { */
+    color: #f38ba8;
+}
+
+
+tooltip {
+    background: #11111b;
+    border-radius: 10px;
+}
+
+/* custom-cava { */
+    color: rgba(137, 180, 250, 0.53);
+    font-size: 16px;
+    padding: 0 10px;
+    margin: 4px;
+}
+
+/* custom-cpu-temp { */
+    color: #f9e2af;
+}
+
+
+

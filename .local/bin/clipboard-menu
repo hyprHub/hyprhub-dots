@@ -1,0 +1,12 @@
+#!/bin/bash
+
+choice=$(cliphist list | anyrun --plugins libstdin.so)
+
+case "$choice" in
+    "")
+        exit 0
+        ;;
+    *)
+        echo "$choice" | cliphist decode | wl-copy
+        ;;
+esac

@@ -1,0 +1,136 @@
+/* ==================================
+ Project: hyprhub
+ Author: grid
+ Description: Hyprland configuration
+================================== */
+
+{
+  "layer": "top",
+  "position": "top",
+  "height": 36,
+  "spacing": 8,
+
+  "modules-left": [
+    "hyprland/workspaces",
+    "hyprland/window"
+  ],
+
+  "modules-center": [
+    "clock",
+    "custom/cava"
+  ],
+
+"modules-right": [
+    "network",
+    "pulseaudio",
+    "cpu",
+    "memory",
+    "custom/cpu-temp",
+    "battery",
+    "tray",
+    "custom/notification",
+    "custom/power"
+],
+
+
+  "hyprland/workspaces": {
+    "format": "{icon}",
+    "format-icons": {
+      "active": "",
+      "default": "",
+      "empty": ""
+    }
+  },
+
+  "hyprland/window": {
+    "max-length": 40
+  },
+
+  "clock": {
+    "format": "󰥔  {:%H:%M  %d/%m}",
+    "tooltip": true
+  },
+
+  "network": {
+    "format-wifi": "󰤨 {essid}",
+    "format-disconnected": "󰤭",
+    "on-click": "~/.local/bin/wifi-anyrun"
+  },
+
+"pulseaudio": {
+    "format": "󰕾 {volume}%",
+    "format-muted": "󰖁 muted",
+    "scroll-step": 5,
+    "on-click": "~/.local/bin/audio-menu"
+},
+
+
+  "cpu": {
+    "format": "󰍛 {usage}%"
+  },
+
+  "memory": {
+    "format": "󰘚 {percentage}%"
+  },
+
+"battery": {
+    "states": {
+        "warning": 30,
+        "critical": 15
+    },
+    "format": "{icon} {capacity}%",
+    "format-charging": "󰂄 {capacity}%",
+    "format-full": "󰁹 {capacity}%",
+    "format-icons": [
+        "󰁺",
+        "󰁻",
+        "󰁼",
+        "󰁽",
+        "󰁾",
+        "󰁿",
+        "󰂀",
+        "󰂁",
+        "󰂂",
+        "󰁹"
+    ],
+    "tooltip": true,
+    "tooltip-format": "{}",
+    "on-click": "~/.local/bin/battery-info"
+
+}
+
+,
+
+  "tray": {
+    "spacing": 10
+  },
+
+  "custom/notification": {
+    "format": "󰂚",
+    "on-click": "swaync-client -t"
+  },
+
+  "custom/power": {
+    "format": "⏻",
+    "tooltip": true,
+    "tooltip-format": "Power menu",
+    "on-click": "wlogout"
+  },
+
+"custom/cava": {
+    "exec": "sh -c '$HOME/.config/waybar/scripts/cava.sh'",
+    "format": "{text}",
+    "return-type": "json"
+}
+
+,
+
+"custom/cpu-temp": {
+    "exec": "sh -c '$HOME/.local/bin/cpu-temp'",
+    "interval": 5,
+    "format": " {}°C"
+}
+
+
+
+}

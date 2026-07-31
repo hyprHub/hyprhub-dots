@@ -1,0 +1,8 @@
+#!/bin/bash
+
+INFO=$(upower -i /org/freedesktop/UPower/devices/battery_BAT1 | \
+grep -E "model:|state:|energy-rate:|voltage:|percentage:|capacity:|time to")
+
+printf "%s" "$INFO" | anyrun \
+--plugins libstdin.so \
+--show-results-immediately true
