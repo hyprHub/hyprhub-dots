@@ -1,3 +1,11 @@
+![License](https://img.shields.io/github/license/hyprHub/hyprhub-dots)
+![Stars](https://img.shields.io/github/stars/hyprHub/hyprhub-dots)
+![Forks](https://img.shields.io/github/forks/hyprHub/hyprhub-dots)
+![Issues](https://img.shields.io/github/issues/hyprHub/hyprhub-dots)
+![Last Commit](https://img.shields.io/github/last-commit/hyprHub/hyprhub-dots)
+---
+
+
 <p align="center">
   <img src="assets/banner.png" alt="HyprHUB Banner">
 </p>
@@ -7,14 +15,6 @@
 <p align="center">
 Modern • Minimal • Fast • Beautiful
 </p>
-
-
-![License](https://img.shields.io/github/license/hyprHub/hyprhub-dots)
-![Stars](https://img.shields.io/github/stars/hyprHub/hyprhub-dots)
-![Forks](https://img.shields.io/github/forks/hyprHub/hyprhub-dots)
-![Issues](https://img.shields.io/github/issues/hyprHub/hyprhub-dots)
-![Last Commit](https://img.shields.io/github/last-commit/hyprHub/hyprhub-dots)
----
 
 
 ## ✨ Features
