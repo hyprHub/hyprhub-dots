@@ -1,3 +1,15 @@
+<p align="center">
+  <img src="assets/banner.png" alt="HyprHUB Banner">
+</p>
+
+<h1 align="center">HyprHUB Dots</h1>
+
+<p align="center">
+Modern • Minimal • Fast • Beautiful
+</p>
+
+
+
 # HyprHUB
 
 <p align="center">
